@@ -14,18 +14,22 @@
 
   <body>
     <div class="container">
-      <div class="row">
-        <div class="col-md-12 text-center">
-            <form>
+      <div class="row justify-content-md-center">
+        <div class="col-md-6 text-center">
+        <h2 class="mt-5 mb-5">--| AJOUT D'UN ROLE |--</h1>
+            {# <form>
                 <div class="form-group">
-                    <label for="role">Email address</label>
+                    <label for="role">Rôle : </label>
                     <input type="text" class="form-control" id="role" aria-describedby="roleHelp" placeholder="votre role...">
                 </div>
                 <button type="submit" class="btn btn-primary">Ajouter</button>
-            </form>
+            </form> #}
+             {{ form(form) }}
         </div>
       </div>
    </div>
+
+   {# {{ form(form) }} #}
     
 
     <!-- Optional JavaScript -->
