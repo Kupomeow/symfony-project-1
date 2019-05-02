@@ -29,7 +29,7 @@ class Personnage
     private $skills;
 
     /**
-     * @ORM\ManyToMany(targetEntity="App\Entity\role", inversedBy="personnages")
+     * @ORM\ManyToMany(targetEntity="App\Entity\Role", inversedBy="personnages")
      */
     private $roles;
 
