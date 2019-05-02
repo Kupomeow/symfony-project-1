@@ -16,8 +16,13 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1>Votre numéro aléatoire ! !</h1>
-          <p>Numéro tiré est : {{ number }}</p>
+            <form>
+                <div class="form-group">
+                    <label for="role">Email address</label>
+                    <input type="text" class="form-control" id="role" aria-describedby="roleHelp" placeholder="votre role...">
+                </div>
+                <button type="submit" class="btn btn-primary">Ajouter</button>
+            </form>
         </div>
       </div>
    </div>
